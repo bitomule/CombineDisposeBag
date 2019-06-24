@@ -39,10 +39,10 @@
 
 /* Begin PBXFileReference section */
 		0544C8EE8416E79394D0EA3DBEF3D5B0 /* Pods-CombineDisposeBag_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CombineDisposeBag_Example-umbrella.h"; sourceTree = "<group>"; };
-		2688F6A7E29178148A00837B12135C68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2688F6A7E29178148A00837B12135C68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		29031B265D949D984C748EA2C89A441A /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
 		2A831750CF096443528354F685CAE2D3 /* CombineDisposeBag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineDisposeBag-prefix.pch"; sourceTree = "<group>"; };
-		35ED6D5AC214D860D8CC0CADE1BF7E63 /* Pods_CombineDisposeBag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CombineDisposeBag_Tests.framework; path = "Pods-CombineDisposeBag_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35ED6D5AC214D860D8CC0CADE1BF7E63 /* Pods_CombineDisposeBag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineDisposeBag_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6B33A4681913B3DA96981B1FA31A2F /* Pods-CombineDisposeBag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineDisposeBag_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4087C111EEA9A58F08775FD0F41034D4 /* Pods-CombineDisposeBag_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineDisposeBag_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		46A610E1588FC8380EE1C751AE6C046C /* Pods-CombineDisposeBag_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CombineDisposeBag_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -56,19 +56,19 @@
 		882A9229605EF4252E9D3B0E5FB1F591 /* CombineDisposeBag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineDisposeBag.xcconfig; sourceTree = "<group>"; };
 		8D8EABE1B95B1704589115AB898BDD21 /* CombineDisposeBag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CombineDisposeBag.modulemap; sourceTree = "<group>"; };
 		903DD49780409E3450ABA8EC0C8DEE86 /* Pods-CombineDisposeBag_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CombineDisposeBag_Tests.modulemap"; sourceTree = "<group>"; };
-		90C646A5F2BFD8F264B0BCB2B0C62076 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		90C646A5F2BFD8F264B0BCB2B0C62076 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9CF6C3372DA6BFEF506E21795E4D1808 /* DisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = Sources/Classes/DisposeBag.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6E6E530C341E901C68FBF6FD56D6669 /* Pods-CombineDisposeBag_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineDisposeBag_Example-Info.plist"; sourceTree = "<group>"; };
 		AC6256893852295679BD4417B9533564 /* Pods-CombineDisposeBag_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineDisposeBag_Tests-dummy.m"; sourceTree = "<group>"; };
-		ADED357EBD233AA4F6D4B6CCF99AB0E8 /* CombineDisposeBag.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CombineDisposeBag.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADED357EBD233AA4F6D4B6CCF99AB0E8 /* CombineDisposeBag.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CombineDisposeBag.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2F778D34C647DF1D6C2DD7D046ADF4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		BDACAA65D6A206A586190BC2A1FC4EE7 /* CombineDisposeBag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineDisposeBag-umbrella.h"; sourceTree = "<group>"; };
 		C8C80E98CBCFC03B45C7ACE5A17501CC /* Pods-CombineDisposeBag_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineDisposeBag_Tests-Info.plist"; sourceTree = "<group>"; };
 		CA244F3659BB46434824D8257B914829 /* Pods-CombineDisposeBag_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CombineDisposeBag_Example.modulemap"; sourceTree = "<group>"; };
 		CC914D45326CCA0E9D525C75F0B0AB9F /* Pods-CombineDisposeBag_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineDisposeBag_Example-dummy.m"; sourceTree = "<group>"; };
-		CD62C55EBDC111D02A9FC1A52FA9AE2B /* Pods_CombineDisposeBag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CombineDisposeBag_Example.framework; path = "Pods-CombineDisposeBag_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0EF1144F7F7C1B9CCC767BE930C78EE /* CombineDisposeBag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CombineDisposeBag.framework; path = CombineDisposeBag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD62C55EBDC111D02A9FC1A52FA9AE2B /* Pods_CombineDisposeBag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CombineDisposeBag_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0EF1144F7F7C1B9CCC767BE930C78EE /* CombineDisposeBag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CombineDisposeBag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7186298286BC23E498BA9790A887F5F /* Pods-CombineDisposeBag_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineDisposeBag_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FE6166D15777380DEDF6E14CDBBF464C /* Pods-CombineDisposeBag_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CombineDisposeBag_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -496,8 +496,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
