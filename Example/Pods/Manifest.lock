@@ -1,0 +1,16 @@
+PODS:
+  - CombineDisposeBag (0.1.0)
+
+DEPENDENCIES:
+  - CombineDisposeBag (from `../`)
+
+EXTERNAL SOURCES:
+  CombineDisposeBag:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CombineDisposeBag: 7c48c27b81b8bde443a0dc846cc604032dba9756
+
+PODFILE CHECKSUM: 893a29d8c1a32f3fb270205ccb75215a115d8daa
+
+COCOAPODS: 1.7.2

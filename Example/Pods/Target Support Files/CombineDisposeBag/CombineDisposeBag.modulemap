@@ -1,0 +1,6 @@
+framework module CombineDisposeBag {
+  umbrella header "CombineDisposeBag-umbrella.h"
+
+  export *
+  module * { export * }
+}
