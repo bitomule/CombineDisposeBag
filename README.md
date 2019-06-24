@@ -30,6 +30,8 @@ pod 'CombineDisposeBag'
 * SPM
 * Test
 * Add support for all the Combine supported platforms
+* Add example app
+* Add docs
 
 ## Author
 
