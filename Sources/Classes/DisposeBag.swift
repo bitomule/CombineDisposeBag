@@ -7,7 +7,7 @@
 
 import Combine
 
-public class CombineDisposeBag {
+public class DisposeBag {
     var bag: [Cancellable]
 
     public init() {
@@ -26,7 +26,7 @@ public class CombineDisposeBag {
 }
 
 public extension Cancellable {
-    func disposedBy(_ bag: CombineDisposeBag) {
+    func disposedBy(_ bag: DisposeBag) {
         bag.add(self)
     }
 }

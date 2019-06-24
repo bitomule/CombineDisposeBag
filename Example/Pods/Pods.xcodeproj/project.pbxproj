@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3CD3AE105FE84D917EA1F2F1D5616887 /* CombineDisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1135027907769E8ECA2A4669C526E7 /* CombineDisposeBag.swift */; };
+		32602BEE6D18D90E1A9411CB81F3A2C6 /* DisposeBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6C3372DA6BFEF506E21795E4D1808 /* DisposeBag.swift */; };
 		4CA77C4BB22D4D86A29F9AC2F4AADB62 /* Pods-CombineDisposeBag_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9F24458B4FA3478ECB8728C0680217 /* Pods-CombineDisposeBag_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5106871DB91960F6BBEFA8ACDFA2B6C2 /* CombineDisposeBag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F29F0C592A6DA8C2757F8C2D88A738B /* CombineDisposeBag-dummy.m */; };
 		5A4593092139697D52AA2DF4D8E8F47D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F778D34C647DF1D6C2DD7D046ADF4A /* Foundation.framework */; };
 		64E1FD440CE96AF6B320B64C17E3CABB /* Pods-CombineDisposeBag_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0544C8EE8416E79394D0EA3DBEF3D5B0 /* Pods-CombineDisposeBag_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		696E3649129672564DFCA9D6BE6F69E3 /* Pods-CombineDisposeBag_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC6256893852295679BD4417B9533564 /* Pods-CombineDisposeBag_Tests-dummy.m */; };
@@ -17,7 +16,8 @@
 		70669F5DFA5B1E8FED3D01BCF49986E6 /* Pods-CombineDisposeBag_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC914D45326CCA0E9D525C75F0B0AB9F /* Pods-CombineDisposeBag_Example-dummy.m */; };
 		931D355FABBFBDD89C78F905CABD14CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F778D34C647DF1D6C2DD7D046ADF4A /* Foundation.framework */; };
 		A07861FD3F17F5ABC39CDFCF8F24B7B8 /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29031B265D949D984C748EA2C89A441A /* Combine.framework */; };
-		D0194F3A43B4B4D30DB708D1B0EC0D02 /* CombineDisposeBag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7F05E39250AB2CA10FCC42FB418D0FC /* CombineDisposeBag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D0194F3A43B4B4D30DB708D1B0EC0D02 /* CombineDisposeBag-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BDACAA65D6A206A586190BC2A1FC4EE7 /* CombineDisposeBag-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB0AF1BDD57EA6CE3404A816895DCD50 /* CombineDisposeBag-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 536E0684BA122A59193D5EFA99BE4E34 /* CombineDisposeBag-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,37 +39,37 @@
 
 /* Begin PBXFileReference section */
 		0544C8EE8416E79394D0EA3DBEF3D5B0 /* Pods-CombineDisposeBag_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CombineDisposeBag_Example-umbrella.h"; sourceTree = "<group>"; };
+		2688F6A7E29178148A00837B12135C68 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		29031B265D949D984C748EA2C89A441A /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
-		2AAC38D1985211CCF60D974850372564 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2A831750CF096443528354F685CAE2D3 /* CombineDisposeBag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineDisposeBag-prefix.pch"; sourceTree = "<group>"; };
 		35ED6D5AC214D860D8CC0CADE1BF7E63 /* Pods_CombineDisposeBag_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CombineDisposeBag_Tests.framework; path = "Pods-CombineDisposeBag_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6B33A4681913B3DA96981B1FA31A2F /* Pods-CombineDisposeBag_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineDisposeBag_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4087C111EEA9A58F08775FD0F41034D4 /* Pods-CombineDisposeBag_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineDisposeBag_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		46A610E1588FC8380EE1C751AE6C046C /* Pods-CombineDisposeBag_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CombineDisposeBag_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4DA5F4F56C7D9566BF4F5721267DBE0B /* Pods-CombineDisposeBag_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineDisposeBag_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4F29F0C592A6DA8C2757F8C2D88A738B /* CombineDisposeBag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CombineDisposeBag-dummy.m"; sourceTree = "<group>"; };
+		536E0684BA122A59193D5EFA99BE4E34 /* CombineDisposeBag-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CombineDisposeBag-dummy.m"; sourceTree = "<group>"; };
 		5F9F24458B4FA3478ECB8728C0680217 /* Pods-CombineDisposeBag_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CombineDisposeBag_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6B1135027907769E8ECA2A4669C526E7 /* CombineDisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombineDisposeBag.swift; path = Sources/Classes/CombineDisposeBag.swift; sourceTree = "<group>"; };
 		6D6DCC2005FEC2177B2C1B61A32A6C3D /* Pods-CombineDisposeBag_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CombineDisposeBag_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6FCA1F7FC855CD3E5427E7E71B25EECB /* Pods-CombineDisposeBag_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CombineDisposeBag_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		79553C03EEBA5BB36DCDDC3B72A41C46 /* CombineDisposeBag-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CombineDisposeBag-Info.plist"; sourceTree = "<group>"; };
 		87578EC9473813A9245E23DF65355279 /* Pods-CombineDisposeBag_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineDisposeBag_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		88CA5D89CBE4F667DFC82B64ABB57656 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		882A9229605EF4252E9D3B0E5FB1F591 /* CombineDisposeBag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineDisposeBag.xcconfig; sourceTree = "<group>"; };
+		8D8EABE1B95B1704589115AB898BDD21 /* CombineDisposeBag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CombineDisposeBag.modulemap; sourceTree = "<group>"; };
 		903DD49780409E3450ABA8EC0C8DEE86 /* Pods-CombineDisposeBag_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CombineDisposeBag_Tests.modulemap"; sourceTree = "<group>"; };
-		94093E28C1BCCD7AFCDF94352BB3F47D /* CombineDisposeBag.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CombineDisposeBag.modulemap; sourceTree = "<group>"; };
+		90C646A5F2BFD8F264B0BCB2B0C62076 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9CF6C3372DA6BFEF506E21795E4D1808 /* DisposeBag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DisposeBag.swift; path = Sources/Classes/DisposeBag.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1D2C2EC8518D1BB16EA8DCF0AE0C533 /* CombineDisposeBag-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CombineDisposeBag-Info.plist"; sourceTree = "<group>"; };
 		A6E6E530C341E901C68FBF6FD56D6669 /* Pods-CombineDisposeBag_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineDisposeBag_Example-Info.plist"; sourceTree = "<group>"; };
-		A89E4941AD326006EA83F7D5B023ED20 /* CombineDisposeBag.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CombineDisposeBag.xcconfig; sourceTree = "<group>"; };
 		AC6256893852295679BD4417B9533564 /* Pods-CombineDisposeBag_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineDisposeBag_Tests-dummy.m"; sourceTree = "<group>"; };
+		ADED357EBD233AA4F6D4B6CCF99AB0E8 /* CombineDisposeBag.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CombineDisposeBag.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B2F778D34C647DF1D6C2DD7D046ADF4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C583260AEEB599705A95EDDD34FC47AB /* CombineDisposeBag.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CombineDisposeBag.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BDACAA65D6A206A586190BC2A1FC4EE7 /* CombineDisposeBag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineDisposeBag-umbrella.h"; sourceTree = "<group>"; };
 		C8C80E98CBCFC03B45C7ACE5A17501CC /* Pods-CombineDisposeBag_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineDisposeBag_Tests-Info.plist"; sourceTree = "<group>"; };
 		CA244F3659BB46434824D8257B914829 /* Pods-CombineDisposeBag_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CombineDisposeBag_Example.modulemap"; sourceTree = "<group>"; };
 		CC914D45326CCA0E9D525C75F0B0AB9F /* Pods-CombineDisposeBag_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CombineDisposeBag_Example-dummy.m"; sourceTree = "<group>"; };
 		CD62C55EBDC111D02A9FC1A52FA9AE2B /* Pods_CombineDisposeBag_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CombineDisposeBag_Example.framework; path = "Pods-CombineDisposeBag_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EF1144F7F7C1B9CCC767BE930C78EE /* CombineDisposeBag.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CombineDisposeBag.framework; path = CombineDisposeBag.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E55C2E61A40AC41C27E48E9A669E0B44 /* CombineDisposeBag-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineDisposeBag-prefix.pch"; sourceTree = "<group>"; };
 		E7186298286BC23E498BA9790A887F5F /* Pods-CombineDisposeBag_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CombineDisposeBag_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E7F05E39250AB2CA10FCC42FB418D0FC /* CombineDisposeBag-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CombineDisposeBag-umbrella.h"; sourceTree = "<group>"; };
 		FE6166D15777380DEDF6E14CDBBF464C /* Pods-CombineDisposeBag_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CombineDisposeBag_Example-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -149,30 +149,30 @@
 		48D8C313BEF0D159B241A56164F3B6AB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				D7196B94DB5C5BD75DA7FA3713CBB4E7 /* CombineDisposeBag */,
+				F858A8CC8B81AF108E403C15F4A22355 /* CombineDisposeBag */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		639CC61A7AC58DEB184D7C54E9CDF56C /* Pod */ = {
+		7AF5C94A69C87A5F9FFC145B1E64C4BD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C583260AEEB599705A95EDDD34FC47AB /* CombineDisposeBag.podspec */,
-				88CA5D89CBE4F667DFC82B64ABB57656 /* LICENSE */,
-				2AAC38D1985211CCF60D974850372564 /* README.md */,
+				ADED357EBD233AA4F6D4B6CCF99AB0E8 /* CombineDisposeBag.podspec */,
+				2688F6A7E29178148A00837B12135C68 /* LICENSE */,
+				90C646A5F2BFD8F264B0BCB2B0C62076 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		6CA4A7ADAEDE1467E9E92692143F0CDA /* Support Files */ = {
+		82E1E6744B3AA3A553BAAB93180494C0 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				94093E28C1BCCD7AFCDF94352BB3F47D /* CombineDisposeBag.modulemap */,
-				A89E4941AD326006EA83F7D5B023ED20 /* CombineDisposeBag.xcconfig */,
-				4F29F0C592A6DA8C2757F8C2D88A738B /* CombineDisposeBag-dummy.m */,
-				A1D2C2EC8518D1BB16EA8DCF0AE0C533 /* CombineDisposeBag-Info.plist */,
-				E55C2E61A40AC41C27E48E9A669E0B44 /* CombineDisposeBag-prefix.pch */,
-				E7F05E39250AB2CA10FCC42FB418D0FC /* CombineDisposeBag-umbrella.h */,
+				8D8EABE1B95B1704589115AB898BDD21 /* CombineDisposeBag.modulemap */,
+				882A9229605EF4252E9D3B0E5FB1F591 /* CombineDisposeBag.xcconfig */,
+				536E0684BA122A59193D5EFA99BE4E34 /* CombineDisposeBag-dummy.m */,
+				79553C03EEBA5BB36DCDDC3B72A41C46 /* CombineDisposeBag-Info.plist */,
+				2A831750CF096443528354F685CAE2D3 /* CombineDisposeBag-prefix.pch */,
+				BDACAA65D6A206A586190BC2A1FC4EE7 /* CombineDisposeBag-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/CombineDisposeBag";
@@ -214,12 +214,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		D7196B94DB5C5BD75DA7FA3713CBB4E7 /* CombineDisposeBag */ = {
+		F858A8CC8B81AF108E403C15F4A22355 /* CombineDisposeBag */ = {
 			isa = PBXGroup;
 			children = (
-				6B1135027907769E8ECA2A4669C526E7 /* CombineDisposeBag.swift */,
-				639CC61A7AC58DEB184D7C54E9CDF56C /* Pod */,
-				6CA4A7ADAEDE1467E9E92692143F0CDA /* Support Files */,
+				9CF6C3372DA6BFEF506E21795E4D1808 /* DisposeBag.swift */,
+				7AF5C94A69C87A5F9FFC145B1E64C4BD /* Pod */,
+				82E1E6744B3AA3A553BAAB93180494C0 /* Support Files */,
 			);
 			name = CombineDisposeBag;
 			path = ../..;
@@ -260,7 +260,7 @@
 			buildConfigurationList = C2C16A9A1FBFCAE85C82F1D27766FAD4 /* Build configuration list for PBXNativeTarget "CombineDisposeBag" */;
 			buildPhases = (
 				587B3B1EBC4A83CD3425BD9EF3F6A5E7 /* Headers */,
-				D5ED2EB7E8117B5BB0101B8A770AAF16 /* Sources */,
+				C18C07A78E97AE06E365EA51076123D4 /* Sources */,
 				5CB2AA7F7176C58906DD92FA40062C3E /* Frameworks */,
 				93540DCC6B657607B1F345F757B9F352 /* Resources */,
 			);
@@ -380,12 +380,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5ED2EB7E8117B5BB0101B8A770AAF16 /* Sources */ = {
+		C18C07A78E97AE06E365EA51076123D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5106871DB91960F6BBEFA8ACDFA2B6C2 /* CombineDisposeBag-dummy.m in Sources */,
-				3CD3AE105FE84D917EA1F2F1D5616887 /* CombineDisposeBag.swift in Sources */,
+				EB0AF1BDD57EA6CE3404A816895DCD50 /* CombineDisposeBag-dummy.m in Sources */,
+				32602BEE6D18D90E1A9411CB81F3A2C6 /* DisposeBag.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,7 +407,241 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1AF45F362DC9EAD9B19EC2FC04DC12A4 /* Debug */ = {
+		000A140EE8BEE4F6A61291AFDC6DFB40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F6B33A4681913B3DA96981B1FA31A2F /* Pods-CombineDisposeBag_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CombineDisposeBag_Tests/Pods-CombineDisposeBag_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CombineDisposeBag_Tests/Pods-CombineDisposeBag_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7B0B065F5655D195AAAED8C818E6D09A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA5F4F56C7D9566BF4F5721267DBE0B /* Pods-CombineDisposeBag_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CombineDisposeBag_Example/Pods-CombineDisposeBag_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CombineDisposeBag_Example/Pods-CombineDisposeBag_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1C137D2C07878E36B25EE7242B74630 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FCA1F7FC855CD3E5427E7E71B25EECB /* Pods-CombineDisposeBag_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CombineDisposeBag_Example/Pods-CombineDisposeBag_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CombineDisposeBag_Example/Pods-CombineDisposeBag_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CB7BF919614E65210AC0203B09BCE846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882A9229605EF4252E9D3B0E5FB1F591 /* CombineDisposeBag.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineDisposeBag/CombineDisposeBag-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CombineDisposeBag/CombineDisposeBag-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CombineDisposeBag/CombineDisposeBag.modulemap";
+				PRODUCT_MODULE_NAME = CombineDisposeBag;
+				PRODUCT_NAME = CombineDisposeBag;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9040ED85A063B1ECF6E928E89AFBD4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 882A9229605EF4252E9D3B0E5FB1F591 /* CombineDisposeBag.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CombineDisposeBag/CombineDisposeBag-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CombineDisposeBag/CombineDisposeBag-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CombineDisposeBag/CombineDisposeBag.modulemap";
+				PRODUCT_MODULE_NAME = CombineDisposeBag;
+				PRODUCT_NAME = CombineDisposeBag;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -458,7 +692,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -471,138 +705,7 @@
 			};
 			name = Debug;
 		};
-		2D0B66DB7857732C39E2D9442E0570D6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FCA1F7FC855CD3E5427E7E71B25EECB /* Pods-CombineDisposeBag_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CombineDisposeBag_Example/Pods-CombineDisposeBag_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CombineDisposeBag_Example/Pods-CombineDisposeBag_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		386765988D580ED87EFC42C4758F736D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		4135A61108587E11CB3F7A37FD230136 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4DA5F4F56C7D9566BF4F5721267DBE0B /* Pods-CombineDisposeBag_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CombineDisposeBag_Example/Pods-CombineDisposeBag_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CombineDisposeBag_Example/Pods-CombineDisposeBag_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7E6D6CB50DE33B5004FAE58896B70496 /* Debug */ = {
+		FCEB4EB0A7766512EA870BE6673D77F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4087C111EEA9A58F08775FD0F41034D4 /* Pods-CombineDisposeBag_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -620,7 +723,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-CombineDisposeBag_Tests/Pods-CombineDisposeBag_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-CombineDisposeBag_Tests/Pods-CombineDisposeBag_Tests.modulemap";
@@ -636,109 +739,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		CB7BF919614E65210AC0203B09BCE846 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A89E4941AD326006EA83F7D5B023ED20 /* CombineDisposeBag.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CombineDisposeBag/CombineDisposeBag-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CombineDisposeBag/CombineDisposeBag-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CombineDisposeBag/CombineDisposeBag.modulemap";
-				PRODUCT_MODULE_NAME = CombineDisposeBag;
-				PRODUCT_NAME = CombineDisposeBag;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		DEC083FE03AAD075943D44F6E7348417 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F6B33A4681913B3DA96981B1FA31A2F /* Pods-CombineDisposeBag_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-CombineDisposeBag_Tests/Pods-CombineDisposeBag_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CombineDisposeBag_Tests/Pods-CombineDisposeBag_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E9040ED85A063B1ECF6E928E89AFBD4F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A89E4941AD326006EA83F7D5B023ED20 /* CombineDisposeBag.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CombineDisposeBag/CombineDisposeBag-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CombineDisposeBag/CombineDisposeBag-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CombineDisposeBag/CombineDisposeBag.modulemap";
-				PRODUCT_MODULE_NAME = CombineDisposeBag;
-				PRODUCT_NAME = CombineDisposeBag;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -746,8 +746,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1AF45F362DC9EAD9B19EC2FC04DC12A4 /* Debug */,
-				386765988D580ED87EFC42C4758F736D /* Release */,
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -755,8 +755,8 @@
 		92AEA87A5A49A2AEB0AAB00AA0C7DB31 /* Build configuration list for PBXNativeTarget "Pods-CombineDisposeBag_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7E6D6CB50DE33B5004FAE58896B70496 /* Debug */,
-				DEC083FE03AAD075943D44F6E7348417 /* Release */,
+				FCEB4EB0A7766512EA870BE6673D77F8 /* Debug */,
+				000A140EE8BEE4F6A61291AFDC6DFB40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -764,8 +764,8 @@
 		A76CD7C812E0AA2205AA9A274B94F2D4 /* Build configuration list for PBXNativeTarget "Pods-CombineDisposeBag_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2D0B66DB7857732C39E2D9442E0570D6 /* Debug */,
-				4135A61108587E11CB3F7A37FD230136 /* Release */,
+				A1C137D2C07878E36B25EE7242B74630 /* Debug */,
+				7B0B065F5655D195AAAED8C818E6D09A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,10 +1,12 @@
 use_frameworks!
 
 target 'CombineDisposeBag_Example' do
+  platform :ios, '13.0'
   pod 'CombineDisposeBag', :path => '../'
 
   target 'CombineDisposeBag_Tests' do
     inherit! :search_paths
+    platform :ios, '13.0'
 
     
   end
