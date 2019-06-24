@@ -13,7 +13,7 @@ Combine misses a way to manage subscriptions. This pod adds CombineDisposeBag ty
   s.source           = { :git => 'https://github.com/bitomule/CombineDisposeBag.git', :tag => s.version.to_s }
    s.social_media_url = 'https://twitter.com/bitomule'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'Sources/Classes/**/*'
   s.frameworks = 'Combine'
