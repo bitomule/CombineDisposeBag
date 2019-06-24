@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CombineDisposeBag_Example' do
+  pod 'CombineDisposeBag', :path => '../'
+
+  target 'CombineDisposeBag_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
