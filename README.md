@@ -26,6 +26,7 @@ pod 'CombineDisposeBag'
 
 ## TODO
 
+* Threading
 * Carthage
 * SPM
 * Test
