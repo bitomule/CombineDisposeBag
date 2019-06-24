@@ -5,11 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/CombineDisposeBag.svg?style=flat)](https://cocoapods.org/pods/CombineDisposeBag)
 [![Platform](https://img.shields.io/cocoapods/p/CombineDisposeBag.svg?style=flat)](https://cocoapods.org/pods/CombineDisposeBag)
 
+This is a *WORK IN PROGRESS*, not ready for *PRODUCTION*.
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
+
+* iOS 13
 
 ## Installation
 
@@ -19,6 +23,16 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'CombineDisposeBag'
 ```
+
+## TODO
+
+* Threading
+* Carthage
+* SPM
+* Test
+* Add support for all the Combine supported platforms
+* Add example app
+* Add docs
 
 ## Author
 
